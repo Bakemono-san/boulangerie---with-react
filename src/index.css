@@ -1,0 +1,227 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  width: 100%;
+  height: 100vh;
+}
+
+
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.header{
+  color: black;
+  width: 100%;
+  z-index: 99999;
+  background: white;
+  position: fixed;
+  box-shadow: 12px 2px 5px rgb(236, 234, 234);
+}
+.header p{
+  margin-left: 10%;
+  padding: 10px 0px;
+  font-weight: 400;
+  color: #422b08;
+}
+.header div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 1px solid rgb(235, 228, 228);
+  border-bottom: 1px solid rgb(235, 228, 228);
+  padding: 24px;
+  margin: 0px;
+}
+.header div a{
+  text-decoration: none;
+  padding: 20px;
+  font-weight: 490;
+  font-size: 19px;
+  color: #422b08!important;
+}
+.header div a:hover{
+  background: grey;
+  transition: 1.5s;
+}
+
+.bg{
+  padding: 90px 20px;
+  position: relative;
+  top: 300px;
+  background-image: url("./images/pain.jpg");
+  width: 100%;
+  display: flex;
+  color: white;
+  font-size: 24px;
+  font-weight: 100;
+  height: 350px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.no{
+  position: relative;
+  top: 300px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.no h1{
+  margin-top: 48px;
+  font-weight: 100;
+  font-size: 40px;
+  letter-spacing: 2px;
+  margin-bottom: 5px;
+  color: #422b08;
+}
+.no h2{
+  font-weight: 100;
+  font-size: 40px;
+  margin-bottom: 5px;
+  color: #422b08;
+}
+.no h3{
+  font-size: 32px;
+  font-weight: 100;
+  color: #422b08;
+}
+.trait{
+  width: 25%;
+  height: 1px;
+  background: grey;
+  margin: 50px;
+}
+.vert{
+  width: 80%;
+  background: chartreuse;
+  height: 1px;
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+.no > p{
+  width: 70%;
+  margin-bottom: 15px;
+}
+.no > h3{
+  font-size: 24px;
+  color: #2c1d07;
+  font-weight: 500;
+}
+.card img{
+  background: grey;
+  width: 70%;
+  border-radius: 50%;
+  border: 0.3px solid rgb(221, 214, 214);
+}
+.card{
+  position: relative;
+  top: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card div{
+  max-width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.card div p{
+  width: 80%;
+  color: #855309;
+  margin-top: 5px;
+  white-space: 5px;
+}
+.card h2{
+  font-weight: 400;
+  font-size: 40px;
+  color: #422b08;
+}
+button{
+  margin-top: 15px;
+  padding: 7px 20px;
+  background: #fff;
+  border: solid 2px #352206;
+  color: #855309;
+  border-radius: 5px;
+}
+button:hover{
+  background: rgba(231, 227, 227, 0.733);
+  border-color: rgb(156, 247, 20);
+  color: #2c1d07;
+}
+.last img{
+  width: 100px;
+  margin-bottom: 20px;
+}
+.last {
+  display: flex ;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 300px;
+}
+.last h2{
+  margin-top: 80px;
+  font-weight: 100;
+  font-size: 32px;
+  color: #422b08;
+  margin-bottom: 5px;
+}
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container>div{
+  padding: 10px;
+  max-width: 20%;
+  text-align: center;
+  color: #855309;
+  font-size: 24px;
+}
+p > img{
+  margin-right: 3.5px;
+}
+.cli{
+  position: relative;
+  top: 5px;
+  width: 30px;
+  margin-left: 12px;
+}
+.las{
+  position: relative;
+  top: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: rgb(250, 236, 252);
+  clip-path: polygon(50% 21%, 100% 8%, 100% 100%, 0 100%, 0 8%);
+}
+.las .vert{
+  margin-top: 120px;
+}
+.las h2{
+  position: relative;
+  top: 100px;
+  font-weight: 200;
+  font-size: 38px;
+  color: #25072c;
+}
